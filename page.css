@@ -1,0 +1,161 @@
+html{
+
+	scroll-behavior: smooth;
+
+}
+
+
+h1
+{
+	text-align: center;
+	color : red;
+	;
+
+}
+
+header{
+
+	background-image: url("img/chat1.jpg");
+	background-size: contain;
+	background-position: center;
+}
+
+
+p.blocktext{
+	margin-left: auto;
+    margin-right: auto;
+    width: 15em;
+    color : red;
+}
+
+#logo{
+
+	width : 50px;
+	height: 50px;
+	margin-left: 50px;
+	margin-top: : 50px;	
+}
+
+#nav_container
+{
+	position : fixed;
+	top: 0px;
+	left: 0px;
+	right: 0px;
+}
+
+nav
+{
+	margin: 0px 0px 0px 900px;
+	background: #1f1a1e;
+	border-radius: 0px 0px 0px 20px;
+	padding-left : 5px;
+	border : #8f838d 2px solid;
+	border-style: none none solid solid;
+	box-shadow: 2px 0px 15px rgba(0,0,0, 0.6);
+}
+
+nav ul li
+{
+	display : inline-block;
+	vertical-align: top;
+	height : 38px;
+	margin : 2px 8px;
+	overflow: hidden;
+	position: relative;
+}
+
+nav ul li a
+{
+	display: block;
+	height : 32px;
+	padding-left : 35px;
+	font-size: 18px;
+	text-decoration: none;
+	background: url("img/paw.png") no-repeat left;
+	padding-top : 5px;
+	color : #ffffff;
+}
+
+nav ul li ul
+{
+	background: rgba(31, 26, 30, 0.9);
+	position: absolute;
+	
+	box-shadow: 0px 2px 15px rgba(0,0,0, 0.6);
+	border-radius: 0px 0px 20px 20px;
+}
+
+nav ul li ul li
+{
+	display: block;
+	width: 300px;
+	height: auto;
+	padding: 0px 3px;
+}
+
+nav ul li ul li a
+{
+	display: inline;
+	padding: 0px;
+	background: none;
+	overflow: visible;
+	font-size: 18px;
+}
+
+#produits{
+
+	margin-top: 100px;
+	margin-bottom: 100px;
+}
+
+
+*{
+	box-sizing: border-box;
+	font-family: Verdana, "DejaVu Sans", "Bitstream Vera Sans", Geneva, sans-serif;
+}
+}
+
+
+#signer{
+
+	position: center;
+}
+
+#fb{
+
+	margin : 50px 10px 10px 10px;
+	width : 50px;
+	height: 50px;
+}
+
+#insta{
+
+	margin : 50px 10px 10px 10px;
+	width : 50px;
+	height: 50px;
+}
+
+#twitter{
+
+	margin : 80px 10px 10px 10px;
+	width : 50px;
+	height: 50px;
+}
+
+#fin{
+
+	float : right;
+}
+
+label{
+
+	margin: 5px 5px 5px 5px;
+
+}
+
+table img {
+
+	max-width: 100%;
+	max-height: 100%;
+}
